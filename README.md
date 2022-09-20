@@ -26,16 +26,20 @@ If there is no `String.length` in C, how are we supposed to find out how many ch
       int s_length = strlen(s);
     }
 
-## Part 1: Counting Occurances of a Character
+## Part 1: Counting Occurrences of a Character
 
 Write a program that loops through a string and counts all occurrences of a character. You can start by counting the occurrences of the character `a`. Make your program more versatile by making it possible to count the occurrences of any character.
 
-## Part 2: Converting One Character to Another
+## Part 2(a): Converting One Character to Another -- Retabbing
 
-Write a program that loops through a string and swaps all occurrences of one character for another. You can start by swapping the character `a` for `b`.
+[Studies have shown](https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/) that developers who use spaces to indent instead of tabs make 10% more money. Write a program that loops through a string and swaps all occurrences of the tab character (`\t`) for a space character.
 
-## Part 3: Retabbing
+## Part 2(b): Retabbing v2
 
-[Studies have shown](https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/) that developers who use spaces to indent instead of tabs make 10% more money. 
+Modify your program from part 2(a) to **copy** characters from one string into a second string. When you encounter a tab character, don't copy it. Instead, insert four spaces in the second string.
+
+## Part 3: Checksumming
+
+Write a program to add up the ASCII values of all characters in a string and print out the sum. For example, in the string `NEIL` above, the ASCII values are `0x4E`, `0x45`, `0x49`, `0x4C`. Their sum is `0x4E + 0x45 + 0x49 + 0x4C = 0x128`.
 
 
